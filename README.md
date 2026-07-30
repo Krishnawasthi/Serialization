@@ -24,8 +24,15 @@ And convert that the object.
 In case you have some privacy concern, let's say you don't want to send… you are sending user object, and you don't want to send the user ID and password over the network, right?
 Okay, you can mark those as a… transient. So, transient will skip, The particular field form.
 Serialization. So, integer transient, not getting serialized
+
+
+
 <img width="674" height="164" alt="image" src="https://github.com/user-attachments/assets/3047ccee-bf00-4aab-92c8-b6a75b3f5194" />
 
 ## result
 <img width="358" height="116" alt="image" src="https://github.com/user-attachments/assets/08a7f822-1442-449e-8734-9fd7fbc79c03" />
+
+
+<img width="1788" height="964" alt="image" src="https://github.com/user-attachments/assets/8e27fdba-afc3-48e8-bd1d-797b034136ef" />
+
 
