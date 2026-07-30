@@ -33,6 +33,36 @@ Serialization. So, integer transient, not getting serialized
 <img width="358" height="116" alt="image" src="https://github.com/user-attachments/assets/08a7f822-1442-449e-8734-9fd7fbc79c03" />
 
 
-<img width="1788" height="964" alt="image" src="https://github.com/user-attachments/assets/8e27fdba-afc3-48e8-bd1d-797b034136ef" />
+# serialVersionUID
+
+## Overview
+
+`serialVersionUID` is a unique version identifier for a class that implements the `Serializable` interface. It is used by the Java Virtual Machine (JVM) during deserialization to verify that the serialized object is compatible with the current version of the class.
+
+## Why is it Important?
+
+* Ensures compatibility between serialized and deserialized objects.
+* Prevents `InvalidClassException` when class versions differ.
+* Gives developers control over serialization versioning.
+
+## Syntax
+
+```java
+private static final long serialVersionUID = 1L;
+```
+
+## Key Points
+
+* Used only with classes that implement `Serializable`.
+* Should be declared as `private static final long`.
+* If not declared, the JVM generates one automatically.
+* Changing the class structure without maintaining a compatible `serialVersionUID` may cause deserialization to fail.
+
+## Best Practice
+
+Always declare an explicit `serialVersionUID` in every serializable class to ensure predictable and reliable serialization behavior.
+
+<img width="1288" height="604" alt="image" src="https://github.com/user-attachments/assets/8e27fdba-afc3-48e8-bd1d-797b034136ef" />
+
 
 
