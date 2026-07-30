@@ -10,7 +10,9 @@
 <img width="900" height="341" alt="image" src="https://github.com/user-attachments/assets/6d1d0d36-3d3f-4448-82ec-c249cd677d97" />
 
 
- >. Two or three steps you have to perform to serialize the object. Which object you are serializing? This object.
-Okay, so what I'll do, I'll write this object to file system.
+ >. Two or three steps you have to perform to serialize the object. object we are serializing.
+So I'll write this object to file system.
 And whoever wants the object back, they will read their file system.
-And convert that the object. Convert that the object.
+And convert that the object.
+
+<img width="831" height="252" alt="image" src="https://github.com/user-attachments/assets/dbecbaf9-ee2e-4164-942f-fb76d6d7c825" />
