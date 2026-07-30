@@ -19,3 +19,10 @@ And convert that the object.
 
 ### here we Deserializing the same file that we have Serialized before. 
 <img width="1460" height="627" alt="image" src="https://github.com/user-attachments/assets/6c482d7f-6a29-452e-a755-0cb6be7f46f7" />
+
+# What Transient is doing?
+<img width="674" height="164" alt="image" src="https://github.com/user-attachments/assets/3047ccee-bf00-4aab-92c8-b6a75b3f5194" />
+
+## result
+<img width="358" height="116" alt="image" src="https://github.com/user-attachments/assets/08a7f822-1442-449e-8734-9fd7fbc79c03" />
+
