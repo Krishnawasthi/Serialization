@@ -8,3 +8,9 @@
 ### Everywhere, serialization is the core technology.
 
 <img width="900" height="341" alt="image" src="https://github.com/user-attachments/assets/6d1d0d36-3d3f-4448-82ec-c249cd677d97" />
+
+
+two or three steps you have to perform to serialize the object. Which object you are serializing? This object.
+Okay, so what I'll do, I'll write this object to file system.
+And whoever wants the object back, they will read their file system.
+And convert that the object. Convert that the object.
