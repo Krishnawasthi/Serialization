@@ -21,6 +21,9 @@ And convert that the object.
 <img width="1460" height="627" alt="image" src="https://github.com/user-attachments/assets/6c482d7f-6a29-452e-a755-0cb6be7f46f7" />
 
 # What Transient is doing?
+In case you have some privacy concern, let's say you don't want to send… you are sending user object, and you don't want to send the user ID and password over the network, right?
+Okay, you can mark those as a… transient. So, transient will skip, The particular field form.
+Serialization. So, integer transient, not getting serialized
 <img width="674" height="164" alt="image" src="https://github.com/user-attachments/assets/3047ccee-bf00-4aab-92c8-b6a75b3f5194" />
 
 ## result
